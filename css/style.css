@@ -21,6 +21,60 @@ ACCUEIL
         padding-top: 35vh;
 }
 
+
+.button{
+        
+        padding: 10px 30px;
+        background-color: #FFFFFF;
+        font-family: 'Alegreya Sans', sans-serif;
+        font-size: 130%;
+        font-weight: lighter;
+        cursor: pointer;
+        border: 2px solid #0E7BAE;
+        border-radius: 5px;
+        position: absolute;
+        top: 75%;
+        left: 44%;
+        
+        transition: 0.5s;
+        
+}
+
+.button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+}
+
+.button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+}
+
+.button:hover span{
+        transition: 0.5s;
+        padding-right: 25px;
+}
+
+.button:hover{
+        background-color: #0E7BAE;
+        color: white;
+}
+.button:hover span:after {
+        opacity: 1;
+        right: 0;
+}
+.button:focus{
+        outline: none;
+}
+
+
+
 .textBottom{
         cursor: pointer;
 }
@@ -64,8 +118,9 @@ IMPACT
 */
 
 .impact{
-        /* background-color: rgb(236, 235, 234); */
         padding: 2% 0;
+        /* background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(14,123,174,1) 84%); */
 }
 
 .impact .titleTop{        
@@ -95,8 +150,6 @@ ETAPES
 */
 
 .etapes{
-        /* background-image: url("assets/img/fond.png"); */
-        /* background-color: rgb(236, 235, 234); */
         padding: 2% 0;
 }
 
@@ -110,5 +163,47 @@ ETAPES
 
 .etapesDescription .textDescription{
         
-        background-color: aquamarine    ;
+        background-color: aquamarine;
+}
+
+/*
+##########################
+CONTACT
+##########################
+*/
+
+.contact{
+        margin: 2% 0;
+}
+.contact form input{
+        outline: none;
+        background: transparent;
+        border-radius: 0;
+        border: 0;
+        border-bottom: 1px solid gray;
+}
+.contact form input:focus{
+        outline-style: none;
+        box-shadow: none;
+        border-color: transparent;
+        border-bottom: 1px solid blue;
+}
+
+.contact form button{
+        padding: 7px 15px;
+        border-radius: 20px 20px 20px 20px;
+        border: 0;
+        background-color: #0E7BAE;
+        color: white;
+        transition: 0.25s;
+}
+
+.contact form button:hover{
+        padding: 7px 15px;
+        border-radius: 20px 20px 20px 20px;
+        border: 0;
+        background-color:white;
+        color:  #0E7BAE;
+        border: 1px solid  #0E7BAE;
+        transition: 0.25s;
 }
