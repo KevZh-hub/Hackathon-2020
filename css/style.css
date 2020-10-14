@@ -92,6 +92,7 @@ ETAPES
 */
 
 .etapes{
+        /* background-image: url("css/assets/img/fond.png"); */
         background-color: rgb(236, 235, 234);
         padding: 2% 0;
 }
