@@ -1,0 +1,28 @@
+.etape {
+        max-width: 750px;
+        width: 90%;
+        margin: 5%;
+}
+
+.bouton { 
+        margin-left: 39%;
+}
+
+.accueil {
+        background-image: url(https://www.mac4ever.com/images/103958_tiens-les-fonds-d-ecran-de-l-iphone-se-2020.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 800px;
+        text-align: center;
+}
+
+h1.accueil {
+        font-size : 100px; 
+        text-align : center; 
+        padding-top:100px;
+}
+
+.impact { 
+        text-align: center;
+}
