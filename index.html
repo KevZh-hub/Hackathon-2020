@@ -6,6 +6,7 @@
     
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <title>Recup'Go</title>
 </head>
@@ -32,7 +33,7 @@
             <h1 class="text-light text-center display-1">Récup'Go</h1>
             <p class="text-light text-center display-4">Récup'Mego</p>
         </div>
-        <div class="textBottom">
+        <div class="textBottom text-center mt-5">
             <button class="button"><span>Contactez-nous </span></button>
             <div class="go-down">
                 <img src="./css/assets/svg/next.svg" alt="arrow" width="35" height="35" class="arrow-down">
@@ -51,19 +52,19 @@
                 <hr width="50%">
     
                 <div class="row description">
-                    <div class="col-lg-4 descriptionChildren">
+                    <div class="col-lg-4 descriptionChildren" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
                         <p class="h3">Titre impact</p>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto temporibus vitae modi ipsa ipsum nesciunt praesentium aliquid nulla autem libero quisquam distinctio, aliquam ad! Tempora repellendus reiciendis cum. Dolore, rem.
                         </p>
                     </div>
-                    <div class="col-lg-4 descriptionChildren">
+                    <div class="col-lg-4 descriptionChildren"  data-aos="fade-up" data-aos-delay="50" data-aos-once="true" data-aos-duration="1000">
                         <p class="h3">Titre impact</p>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto temporibus vitae modi ipsa ipsum nesciunt praesentium aliquid nulla autem libero quisquam distinctio, aliquam ad! Tempora repellendus reiciendis cum. Dolore, rem.
                         </p>
                     </div>
-                    <div class="col-lg-4 descriptionChildren">
+                    <div class="col-lg-4 descriptionChildren"  data-aos="fade-up" data-aos-delay="150" data-aos-once="true" data-aos-duration="1000">
                         <p class="h3">Titre impact</p>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto temporibus vitae modi ipsa ipsum nesciunt praesentium aliquid nulla autem libero quisquam distinctio, aliquam ad! Tempora repellendus reiciendis cum. Dolore, rem.
@@ -138,7 +139,7 @@
                         <button type="submit">S'informer</button>
                     </form>  
                 </div>
-                <div class="col-lg-6 text-center">
+                <div class="col-lg-6 text-center" id="formImage">
                     <img src="css/assets/img/logo recup'go_Plan de travail 1.jpg" class="img-fluid" width="75%" alt="">
                 </div>
             </div>
@@ -148,6 +149,10 @@
    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/boostrap/bootstrap.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

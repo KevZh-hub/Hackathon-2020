@@ -32,10 +32,6 @@ ACCUEIL
         cursor: pointer;
         border: 2px solid #0E7BAE;
         border-radius: 5px;
-        position: absolute;
-        top: 75%;
-        left: 44%;
-        
         transition: 0.5s;
         
 }
@@ -181,12 +177,14 @@ CONTACT
         border-radius: 0;
         border: 0;
         border-bottom: 1px solid gray;
+        transition: 0.25s;
 }
 .contact form input:focus{
         outline-style: none;
         box-shadow: none;
         border-color: transparent;
-        border-bottom: 1px solid blue;
+        border-bottom: 2px solid blue;
+        transition: 0.25s;
 }
 
 .contact form button{
@@ -206,4 +204,13 @@ CONTACT
         color:  #0E7BAE;
         border: 1px solid  #0E7BAE;
         transition: 0.25s;
+}
+
+
+@media screen and (max-width: 640px) {
+
+        #formImage{
+                display: none;
+        }
+
 }
