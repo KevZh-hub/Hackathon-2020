@@ -12,3 +12,8 @@ function scrollFunction() {
         nav.style.backgroundColor = 'transparent';
     }
 }
+
+const arrow = document.getElementById('arrow');
+    arrow.addEventListener('click', function(){
+        document.getElementById('main').scrollIntoView();
+    });
