@@ -54,6 +54,9 @@ ACCUEIL
         }
 }
 
+.main{
+        background-image: url("assets/img/fond.png");
+}
 /*
 ##########################
 IMPACT
@@ -61,7 +64,7 @@ IMPACT
 */
 
 .impact{
-        background-color: rgb(236, 235, 234);
+        /* background-color: rgb(236, 235, 234); */
         padding: 2% 0;
 }
 
@@ -92,8 +95,8 @@ ETAPES
 */
 
 .etapes{
-        /* background-image: url("css/assets/img/fond.png"); */
-        background-color: rgb(236, 235, 234);
+        /* background-image: url("assets/img/fond.png"); */
+        /* background-color: rgb(236, 235, 234); */
         padding: 2% 0;
 }
 
