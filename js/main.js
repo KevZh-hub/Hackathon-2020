@@ -14,6 +14,11 @@ function scrollFunction() {
 }
 
 const arrow = document.getElementById('arrow');
-    arrow.addEventListener('click', function(){
-        document.getElementById('main').scrollIntoView();
-    });
+arrow.addEventListener('click', function(){
+    document.getElementById('main').scrollIntoView();
+});
+
+const button = document.getElementById('contactButton');
+button.addEventListener('click', function(){
+    document.getElementById('contact').scrollIntoView();
+});

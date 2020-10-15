@@ -111,7 +111,7 @@ ACCUEIL
 }
 
 .main{
-        background-image: url("assets/img/fond.png");
+        /* background-image: url("assets/img/fond.png"); */
 }
 /*
 ##########################
@@ -141,7 +141,7 @@ IMPACT
         margin: 5% 0;
 }
 .impact .description .descriptionChildren:hover{
-        background-color: rgb(182, 179, 179);
+        background-color: rgb(221, 221, 221);
         transition: 0.25s;
 }
 
@@ -152,7 +152,7 @@ ETAPES
 */
 
 .etapes{
-        padding: 2% 0;
+        padding: 5% 5%;
 }
 
 .etapesDescription{
@@ -160,12 +160,10 @@ ETAPES
 }
 
 .etapesDescription div{
-        background-color: red;
 }
 
 .etapesDescription .textDescription{
-        
-        background-color: aquamarine;
+        font-size: larger;
 }
 
 /*
@@ -193,6 +191,22 @@ CONTACT
         transition: 0.25s;
 }
 
+.contact form textarea{
+        outline: none;
+        background: transparent;
+        border-radius: 0;
+        border: 0;
+        border-bottom: 1px solid gray;
+        transition: 0.25s;
+        width: 100%;
+}
+.contact form textarea:hover{
+        outline-style: none;
+        box-shadow: none;
+        border-color: transparent;
+        border-bottom: 2px solid blue;
+        transition: 0.25s;
+}
 .contact form button{
         padding: 7px 15px;
         border-radius: 20px 20px 20px 20px;
@@ -213,7 +227,15 @@ CONTACT
 }
 
 
+footer{
+        background-color: #0E7BAE;
+}
+
+
 @media screen and (max-width: 640px) {
+        .etapesDescription .textDescription{
+                color: white;
+        }
         
         #formImage{
                 display: none;
