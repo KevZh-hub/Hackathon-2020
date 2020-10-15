@@ -238,10 +238,6 @@ footer{
 
 
 @media screen and (max-width: 640px) {
-        .etapesDescription .textDescription{
-                color: white;
-        }
-        
         #formImage{
                 display: none;
         }

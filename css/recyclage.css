@@ -11,6 +11,10 @@
 }
 
 
+footer{
+    background-color: #0E7BAE;
+}
+
 @media screen and (max-width: 640px) {
     .accueil {
         background-image: url(https://www.mac4ever.com/images/103958_tiens-les-fonds-d-ecran-de-l-iphone-se-2020.jpg);
