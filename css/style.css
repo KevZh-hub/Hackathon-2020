@@ -199,6 +199,11 @@ CONTACT
         border-bottom: 1px solid gray;
         transition: 0.25s;
         width: 100%;
+        
+}
+.contact form textarea::placeholder{
+        color: black;
+        
 }
 .contact form textarea:hover{
         outline-style: none;

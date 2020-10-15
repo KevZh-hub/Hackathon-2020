@@ -1,5 +1,5 @@
 
-const nbMegots = Math.floor(Math.random() * 1000);
+const nbMegots = Math.floor(Math.random() * 500);
 const nbProduits = Math.floor(nbMegots / 8);
 const listProduits = [
     'couvertures',
